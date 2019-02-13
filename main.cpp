@@ -102,7 +102,7 @@ void sagaDondur(short n, int resim) {
 			MOV CX, SI
 			/*
 			 *
-			 * Ýlk adým AX registerine n'i atýyorum.
+			 * Ä°lk adÄ±m AX registerine n'i atÄ±yorum.
 			 */
 		L1: XOR EAX,EAX	
 			MOV AX,n
@@ -155,7 +155,7 @@ void sagaDondur(short n, int resim) {
 		L4 : XOR EAX, EAX
 		     MOV AX, n
 			 MUL EDI
-			 ADD EAX, ESI //J*N + Ý
+			 ADD EAX, ESI //J*N + Ä°
 			 SHL EAX, 1
 			 ADD EAX, resim
 			 MOV BX, WORD PTR[EAX]
